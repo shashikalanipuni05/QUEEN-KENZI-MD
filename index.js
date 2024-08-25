@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94774500937']
+const ownerNumber = ['94740460412']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/Kenzi_md/creds.json')) {
@@ -155,13 +155,18 @@ m.react("☠️")
  
 if(senderNumber.includes("94774500937")){
 if(isReact) return
-m.react("☠️")
+m.react("🛸")
 }
 
 if(senderNumber.includes("94740460412")){
 if(isReact) return
 m.react("☠️")
 }
+
+if(senderNumber.includes("94710432677")){
+if(isReact) return
+m.react("🦄")
+}        
                
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
