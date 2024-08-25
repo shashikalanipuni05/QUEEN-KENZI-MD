@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94740460412']
+const ownerNumber = ['94774500937']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/Kenzi_md/creds.json')) {
