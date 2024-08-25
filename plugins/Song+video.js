@@ -20,14 +20,14 @@ const url = deta.url
 let desc= `
 *•.¸♡ 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍 AUDIO-DOWNLOADER🎶 ♡¸.•*
 |__________________________
-| 🎠title : ${deta.title}
+| 🛸title : ${deta.title}
 | 🎠description : ${deta.description}
-| 🎠time : ${deta.timestamp}
-| 🎠ago : ${deta.ago}
-| 🎠views : ${deta.views}
+| 🦄time : ${deta.timestamp}
+| 🌸ago : ${deta.ago}
+| 🔮views : ${deta.views}
 |__________________________
 
-POWERED by *⚡ DARK NEON CYBERS 🤍*
+POWERED by *⚡ Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🤍*
 
 `
 
@@ -70,14 +70,14 @@ const url = deta.url
 let desc= `
 *•.¸♡ 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍 VIDEO-DOWNLOADER📽️ ♡¸.•*
 |__________________________
-| 🎠title : ${deta.title}
-| 🎠description : ${deta.description}
+| 🛸title : ${deta.title}
+| 🦄description : ${deta.description}
 | 🎠time : ${deta.timestamp}
-| 🎠ago : ${deta.ago}
-| 🎠views : ${deta.views}
+| 🌸ago : ${deta.ago}
+| 🔮views : ${deta.views}
 |__________________________
 
-POWERED by *⚡ DARK NEON CYBERS 🤍*
+POWERED by *⚡ Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🤍*
 
 `
 
