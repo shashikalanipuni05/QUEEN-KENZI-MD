@@ -172,11 +172,11 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let about = ` HELLOW THEIR ${senderNumber} I AM QUEEN_ROSHIKA WHATSAPP BOT 
+let about = ` HELLOW THEIR ${senderNumber} I AM 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍 WHATSAPP BOT 
               CREATED BY KENZI-MD(DΛЯK ПΣӨП ᑕYBΣЯZ)..
               
-              > *© Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ*
-              > *ɢɪᴛʜᴜʙ :* github.com/Danupa0
+              © *Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ* 🅥
+              *ɢɪᴛʜᴜʙ :* github.com/Danupa0
               
               THANKS FOR USING KENZI-MD WHATSAPP BOT MD`
 return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption:about},{quoted: mek})
