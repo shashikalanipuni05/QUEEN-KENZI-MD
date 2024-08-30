@@ -221,3 +221,57 @@ console.log(e)
 reply(`${e}`)
 }
 })
+
+//===========owner========
+cmd({
+    pattern: "owner",
+    react: "👻",
+    alias: ["panel","list","commands"],
+    desc: "Get bot\'s command list.",
+    category: "main",
+    use: '.menu',
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+let tex = `
+> *👋. *HEY* *FREIND* ジ,
+_________________________
+
+🍫 ∆ ◦ _*ɴᴀᴍᴇ ʙᴏᴛ*_ : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍
+__________________________________________________________
+
+🌜 ∆ ◦ _*ᴄʀᴇᴀᴛᴏʀ*_ : *DanuXzz* ジ 🤍
+> Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥
+__________________________________________________________
+
+👻 ∆ ◦ _*ᴠᴇʀsɪᴏɴs*_ : 1.0.0 ( *ᴀᴅᴅᴇᴅ ʜɪᴅᴅᴇɴ ғᴇᴀᴜᴛᴜʀᴇs* )🤍
+__________________________________________________________
+
+🧩 ∆ ◦ _*ᴛʏᴘᴇ sᴄʀɪᴘᴛ*_ : *ᴘʟᴜɢɪɴs* 🤍
+__________________________________________________________
+
+♟️ ∆ ◦ _*ᴊᴏɪɴ ᴍʏ ɢʀᴏᴜᴘ*_ :  ~https://whatsapp.com/channel/0029Va8f3smKWEKvPUzXQv34~  🤍
+__________________________________________________________
+
+🖲️ ∆ ◦ _*ᴄᴏɴᴛᴀᴄᴛ*_ : ~https://wa.me/94740460412~ 🤍         
+_________________________
+
+*OWNER IS SLEEPING DON'T DISTURB* 🤫
+
+|| *🚫𝟷. sᴘᴀᴍ ʙᴏᴛs ᴀʀᴇ ᴘʀᴏʜɪʙɪᴛᴇᴅ.❕*
+|| *⛔𝟸. ᴄᴀʟʟɪɴɢ ʙᴏᴛs ɪs ᴘʀᴏʜɪʙɪᴛᴇᴅ.❕*
+|| *🚫𝟹. ᴄᴀʟʟɪɴɢ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ ɪs  ᴘʀᴏʜɪʙɪᴛᴇᴅ.❕*
+|| *⛔𝟺. sᴘᴀᴍ ᴛᴏ ɴᴏ ᴏᴡɴᴇʀ ɪs   ᴘʀᴏʜɪʙɪᴛᴇᴅ.❕*
+
+
+   *°⏰ [  𝗕𝗬  © Ｄａｒｋ < | | > Ｎｅｏｎ Ｃｙｂｅｒｚ ヤ • 🎉 ]*
+`
+
+
+return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: tex},{quoted: mek})
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
