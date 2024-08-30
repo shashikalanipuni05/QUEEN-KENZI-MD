@@ -229,7 +229,7 @@ cmd({
     alias: ["panel","list","commands"],
     desc: "Get bot\'s command list.",
     category: "main",
-    use: '.menu',
+    use: '.owner',
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
