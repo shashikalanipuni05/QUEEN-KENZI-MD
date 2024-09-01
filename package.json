@@ -11,6 +11,7 @@
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
     "@adiwajshing/keyed-db": "^0.2.4",
+    "@blackamda/telegram-image-url": "^1.0.0",
     "google-tts-api": "^2.0.2",
     "pino": "^7.0.5",
     "pm2": "^5.2.0",
