@@ -69,7 +69,25 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `KENZI-MD connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `🚀 *_💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍 Connected Successfully!_* ✅ 
+
+--- *🧚‍♀️🎉 _Welcome to Manu-MD!_* 🎉💃 
+
+*💃🔹 PREFIX:* < . >🪄⚡
+
+*💃🔹 OWNER:* < 94774500937 >🪄⚡
+
+
+_Thank you for using_   💃KENZI-MD💗*. 
+_We're here to make your experience enjoyable and seamless._
+_If you need any help or have questions, don't hesitate to ask._ 😼💗
+
+*🖇️Join My WhatsApp Channel✓🤍 - :* https://whatsapp.com/channel/0029Va8f3smKWEKvPUzXQv34
+
+
+_*💃Enjoy your time with us!💡*_
+
+> *💐𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 2024^🤍*`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/c2e4fe813f18339da904a.jpg` }, caption: up })
 
