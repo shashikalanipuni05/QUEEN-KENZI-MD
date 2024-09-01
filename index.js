@@ -71,7 +71,7 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `🚀 *_💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍 Connected Successfully!_* ✅ 
 
---- *🧚‍♀️🎉 _Welcome to Manu-MD!_* 🎉💃 
+--- *🧚‍♀️🎉 _Welcome to KENZI-MD!_* 🎉💃 
 
 *💃🔹 PREFIX:* < . >🪄⚡
 
