@@ -22,16 +22,16 @@ return await conn.sendMessage(from, { text: config.ALIVE_MSG ,
     forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363183301732504@newsletter',
-      newsletterName: "QUEEN-KENZI-MD",
+      newsletterJid: '120363192956026815@newsletter',
+      newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
       serverMessageId: 999
     },
 externalAdReply: { 
-title: 'QUEEN-KENZI-MD',
+title: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
 body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://github.com/Danupa0" ,
-thumbnailUrl: 'https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg' ,
+thumbnailUrl: 'https://telegra.ph/file/c2e4fe813f18339da904a.jpg' ,
 renderLargerThumbnail: false,
 showAdAttribution: false
 }
@@ -244,16 +244,16 @@ return await conn.sendMessage(from, { text: teks ,
     forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363183301732504@newsletter',
-      newsletterName: "QUEEN-KENZI-MD",
+      newsletterJid: '120363192956026815@newsletter',
+      newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
       serverMessageId: 999
     },
 externalAdReply: { 
-title: 'QUEEN-KENZI-MD',
+title: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
 body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://github.com/Danupa0" ,
-thumbnailUrl: 'https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg' ,
+thumbnailUrl: 'https://telegra.ph/file/c2e4fe813f18339da904a.jpg' ,
 renderLargerThumbnail: false,
 showAdAttribution: false
 }
