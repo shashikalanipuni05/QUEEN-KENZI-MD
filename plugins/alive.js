@@ -15,7 +15,27 @@ const voice = {
 
 await conn.sendMessage(from, { audio: { url: voice.alive }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 
-return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: config.ALIVE_MSG},{quoted: mek})
+return await conn.sendMessage(from, { text: config.ALIVE_MSG ,
+  contextInfo: {
+    mentionedJid: [ '' ],
+    groupMentions: [],
+    forwardingScore: 999,
+    isForwarded: true,
+    forwardedNewsletterMessageInfo: {
+      newsletterJid: '120363183301732504@newsletter',
+      newsletterName: "QUEEN-KENZI-MD",
+      serverMessageId: 999
+    },
+externalAdReply: { 
+title: 'QUEEN-KENZI-MD',
+body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+mediaType: 1,
+sourceUrl: "https://github.com/Danupa0" ,
+thumbnailUrl: 'https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg' ,
+renderLargerThumbnail: false,
+showAdAttribution: false
+}
+}}, { quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
@@ -56,7 +76,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let tex = `
+let text = `
 > *👋. *HEY* *FREIND* ジ,
 
 > ɪ ᴀᴍ ᴀɴ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ꜱʏꜱᴛᴇᴍ ⚡ *(ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ)* ᴛʜᴀᴛ ᴄᴀɴ ʜᴇʟᴘ ᴛᴏ ᴅᴏ ꜱᴏᴍᴇᴛʜɪɴɢ, ꜱᴇᴀʀᴄʜ ᴀɴᴅ ɢᴇᴛ ᴅᴀᴛᴀ / ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴏɴʟʏ ᴛʜʀᴏᴜɢʜ *ᴡʜᴀᴛꜱᴀᴘᴘ.🌐*
@@ -217,7 +237,27 @@ __________________________________________________
 `
 
 
-return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: tex},{quoted: mek})
+return await conn.sendMessage(from, { text: teks ,
+  contextInfo: {
+    mentionedJid: [ '' ],
+    groupMentions: [],
+    forwardingScore: 999,
+    isForwarded: true,
+    forwardedNewsletterMessageInfo: {
+      newsletterJid: '120363183301732504@newsletter',
+      newsletterName: "QUEEN-KENZI-MD",
+      serverMessageId: 999
+    },
+externalAdReply: { 
+title: 'QUEEN-KENZI-MD',
+body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+mediaType: 1,
+sourceUrl: "https://github.com/Danupa0" ,
+thumbnailUrl: 'https://telegra.ph/file/ef48cc8d2d26081f7d46a.jpg' ,
+renderLargerThumbnail: false,
+showAdAttribution: false
+}
+}}, { quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
