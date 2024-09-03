@@ -237,7 +237,7 @@ __________________________________________________
 `
 
 
-return await conn.sendMessage(from, { text: teks ,
+return await conn.sendMessage(from, { text: text ,
   contextInfo: {
     mentionedJid: [ '' ],
     groupMentions: [],
