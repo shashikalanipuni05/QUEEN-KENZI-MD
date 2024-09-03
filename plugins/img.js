@@ -1,37 +1,54 @@
-const config = require('../config')
-const { cmd, commands } = require('../command')
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions')
-const { googleImage } = require('@bochilteam/scraper')
+const { cmd } = require('../command');
+const axios = require('axios');
+const { Buffer } = require('buffer');
 
-var imgmsg = "```Please write a few words!```"
-var desc = "Search for related pics on Google."
-var errt = "*I couldn't find anything :(*"
+const GOOGLE_API_KEY = 'AIzaSyDebFT-uY_f82_An6bnE9WvVcgVbzwDKgU'; // Replace with your Google API key
+const GOOGLE_CX = '45b94c5cef39940d1'; // Replace with your Google Custom Search Engine ID
 
 cmd({
     pattern: "img",
-    react: '🖼️',
-    alias: ["gimage","googleimage","gimg"],
-    desc: desc,
-    category: "download",
-    use: '.img4 car',
+    desc: "Search and send images from Google.",
+    react: "🖼️",
+    category: "media",
     filename: __filename
 },
-async(conn, mek, m,{from, l, prefix, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-if (!q) return await  reply(imgmsg)
-let wm = `🅥 G I M A G E - D O W N L O A D E R
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        if (!q) return reply("Please provide a search query for the image.");
 
-© KENZI-MD v${require("../package.json").version} \nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ •ᴅᴀʀᴋɴᴇᴏɴᴄʏʙᴇʀꜱ ッ
- `
-if (!q) return reply('❓ *Please give me a query for Search Images*')
-const data = await googleImage(q)
-await conn.sendMessage(from, { image: { url : data[0] }, caption: wm }, { quoted: mek })
-await conn.sendMessage(from, { image: { url : data[1] }, caption: wm }, { quoted: mek })
-await conn.sendMessage(from, { image: { url : data[2] }, caption: wm }, { quoted: mek })
-await conn.sendMessage(from, { image: { url : data[3] }, caption: wm }, { quoted: mek })
-await conn.sendMessage(from, { image: { url : data[4] }, caption: wm }, { quoted: mek })
-} catch (e) {
-  reply(errt)
-console.log(e)
+        // Fetch image URLs from Google Custom Search API
+        const searchQuery = encodeURIComponent(q);
+        const url = `https://www.googleapis.com/customsearch/v1?q=${searchQuery}&cx=${GOOGLE_CX}&key=${GOOGLE_API_KEY}&searchType=image&num=5`;
+        
+        const response = await axios.get(url);
+        const data = response.data;
+
+        if (!data.items || data.items.length === 0) {
+            return reply("No images found for your query.");
+        }
+
+        // Send images
+        for (let i = 0; i < data.items.length; i++) {
+            const imageUrl = data.items[i].link;
+
+            // Download the image
+            const imageResponse = await axios.get(imageUrl, { responseType: 'arraybuffer' });
+            const buffer = Buffer.from(imageResponse.data, 'binary');
+
+            // Send the image with a footer
+            await conn.sendMessage(from, {
+                image: buffer,
+                caption: `
+*⚡Image ${i + 1} from your search!⚡*
+
+ *PRETTY THAT PICTURES! 🤗*
+
+*💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍*`
+}, { quoted: mek });
 }
-})
+
+    } catch (e) {
+        console.error(e);
+        reply(`Error: ${e.message}`);
+    }
+});
