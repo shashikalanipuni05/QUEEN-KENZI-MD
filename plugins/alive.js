@@ -31,7 +31,7 @@ title: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
 body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://github.com/Danupa0" ,
-thumbnailUrl: 'https://telegra.ph/file/c2e4fe813f18339da904a.jpg' ,
+thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
 renderLargerThumbnail: false,
 showAdAttribution: false
 }
@@ -253,7 +253,7 @@ title: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
 body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://github.com/Danupa0" ,
-thumbnailUrl: 'https://telegra.ph/file/c2e4fe813f18339da904a.jpg' ,
+thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
 renderLargerThumbnail: false,
 showAdAttribution: false
 }
