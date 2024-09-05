@@ -27,7 +27,7 @@ let desc= `
 | 🔮views : ${deta.views}
 |__________________________
 
-POWERED by *⚡ Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🤍*
+> POWERED BY *⚡ Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🤍*
 
 `
 
@@ -77,7 +77,7 @@ let desc= `
 | 🔮views : ${deta.views}
 |__________________________
 
-POWERED by *⚡ Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🤍*
+> POWERED BY *⚡ Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🤍*
 
 `
 
