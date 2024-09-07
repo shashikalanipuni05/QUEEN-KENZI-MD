@@ -312,6 +312,25 @@ _________________________
 
 
 return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: tex},{quoted: mek})
+    contextInfo: {
+    mentionedJid: [ '' ],
+    groupMentions: [],
+    forwardingScore: 999,
+    isForwarded: true,
+    forwardedNewsletterMessageInfo: {
+      newsletterJid: '120363192956026815@newsletter',
+      newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
+      serverMessageId: 999
+    },
+externalAdReply: { 
+title: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
+body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+mediaType: 1,
+sourceUrl: "https://github.com/Danupa0" ,
+thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
+renderLargerThumbnail: true,
+showAdAttribution: true
+}
 }catch(e){
 console.log(e)
 reply(`${e}`)
