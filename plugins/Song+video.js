@@ -57,9 +57,10 @@ body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://github.com/Danupa0" ,
 thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
-renderLargerThumbnail: true,
-showAdAttribution: true
-    }
+renderLargerThumbnail: false,
+showAdAttribution: false
+}
+}}, { quoted: mek})        
 }catch(e){
 console.log(e)
 reply(`${e}`)
