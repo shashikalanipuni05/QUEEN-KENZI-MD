@@ -158,7 +158,7 @@ const tes = `┌─────────────────────�
 > Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ`
 
  
-await conn.sendMessage(from, { image: { url: config.ALIVE_IMG }, caption: tes }, { quoted: mek, messageId:genMsgId() })
+return await conn.sendMessage(from, { text: text ,
     contextInfo: {
     mentionedJid: [ '' ],
     groupMentions: [],
