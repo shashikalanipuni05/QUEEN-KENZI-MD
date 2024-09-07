@@ -267,7 +267,7 @@ reply(`${e}`)
 //===========owner========
 cmd({
     pattern: "owner",
-    react: "👻",
+    react: "🧠",
     alias: ["panel","list","commands"],
     desc: "Get bot\'s command list.",
     category: "main",
@@ -276,8 +276,8 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let tex = `
-> *👋. *HEY* *FREIND* ジ,
+let text = `
+> *👋. *HEY* *${pushname}* ジ,
 _________________________
 
 🍫 ∆ ◦ _*ɴᴀᴍᴇ ʙᴏᴛ*_ : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍
@@ -307,7 +307,7 @@ _________________________
 || *⛔𝟺. sᴘᴀᴍ ᴛᴏ ɴᴏ ᴏᴡɴᴇʀ ɪs   ᴘʀᴏʜɪʙɪᴛᴇᴅ.❕*
 
 
-   *°⏰ [  𝗕𝗬  © Ｄａｒｋ < | | > Ｎｅｏｎ Ｃｙｂｅｒｚ ヤ • 🎉 ]*
+*°⏰ [  𝗕𝗬  © Ｄａｒｋ < | | > Ｎｅｏｎ Ｃｙｂｅｒｚ ヤ • 🎉 ]*
 `
 
 
@@ -331,7 +331,7 @@ thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
-}}, { quoted: mek})                                   
+}}, { quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
