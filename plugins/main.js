@@ -178,6 +178,7 @@ thumbnailUrl: 'https://telegra.ph/file/08ce20a843b7650a296e7.jpg' ,
 renderLargerThumbnail: false,
 showAdAttribution: false
 }
+}}, { quoted: mek})      
 } catch (e) {
 reply('*Error !!*')
 l(e)
