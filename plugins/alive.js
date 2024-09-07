@@ -311,8 +311,8 @@ _________________________
 `
 
 
-return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption: tex},{quoted: mek})
-    contextInfo: {
+return await conn.sendMessage(from, { text: text ,
+  contextInfo: {
     mentionedJid: [ '' ],
     groupMentions: [],
     forwardingScore: 999,
@@ -331,7 +331,7 @@ thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
-}}, { quoted: mek})
+}}, { quoted: mek})                                   
 }catch(e){
 console.log(e)
 reply(`${e}`)
