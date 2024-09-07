@@ -159,6 +159,25 @@ const tes = `┌─────────────────────�
 
  
 await conn.sendMessage(from, { image: { url: config.ALIVE_IMG }, caption: tes }, { quoted: mek, messageId:genMsgId() })
+    contextInfo: {
+    mentionedJid: [ '' ],
+    groupMentions: [],
+    forwardingScore: 999,
+    isForwarded: true,
+    forwardedNewsletterMessageInfo: {
+      newsletterJid: '120363192956026815@newsletter',
+      newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
+      serverMessageId: 999
+    },
+externalAdReply: { 
+title: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
+body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+mediaType: 1,
+sourceUrl: "https://github.com/Danupa0" ,
+thumbnailUrl: 'https://telegra.ph/file/08ce20a843b7650a296e7.jpg' ,
+renderLargerThumbnail: false,
+showAdAttribution: false
+}
 } catch (e) {
 reply('*Error !!*')
 l(e)
