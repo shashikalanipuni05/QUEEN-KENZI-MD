@@ -31,9 +31,9 @@
 
 <a href="https://replit.com"><img title="QUEEN-KENZI Deploy Replit" src="https://img.shields.io/badge/DEPLOY REPLIT-h?color=black&style=for-the-badge&logo=Replit"></a>
 ---
-2. #### Scan Qr
+2. #### PAIR CODE GET
     <br>
-<a href="https://upper-romy-inrl-bot.koyeb.app/viwe/friendpage"><img title="SCAN QR" src="https://img.shields.io/badge/GET SESSION-h?color=black&style=for-the-badge&logo=msi"></a>
+<a href="https://replit.com/@danupaacedemy/Manul-Official-Whatsapp-Bot-Pair-Code"><img title="GET CREDS.JSON FILE" src="https://img.shields.io/badge/GET SESSION-h?color=black&style=for-the-badge&logo=msi"></a>
 
 ---
  ### Termux Guide
