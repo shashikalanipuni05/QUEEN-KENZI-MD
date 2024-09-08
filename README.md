@@ -79,3 +79,11 @@ npm start
 1. ### Danu.Xz
 2. ### Manual Official
 3. ### Kalum.Xz
+
+## MY YT CHANNEL
+
+[![Youtube](https://telegra.ph/file/eebe86c26e98ffeae39ea.jpg)](https://youtube.com/@danuxzz?si=__tcNbJtNcE6mJcN) 
+ 
+ ### WHATSAPP CHANNLE 👇
+ "https://whatsapp.com/channel/0029Va8f3smKWEKvPUzXQv34"
+
