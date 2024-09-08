@@ -7,7 +7,7 @@
 ---
 1. Fork The Repo
     <br>
-<a href="https://github.com/VIVU-MD-v1/VIVU-MD-V1/fork"><img title="VIVU-MD" src="https://img.shields.io/badge/FORK VIVU-MD-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/shashikalanipuni05/mmmmmm/fork"><img title="QUEEN-KENZI-MD" src="https://img.shields.io/badge/FORK QUEEN-KENZI-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 <!--- snake -->
 <div align="center">
@@ -21,7 +21,7 @@
 
   <p align="center">  
   <a href="https://telegra.ph/file/02901a37c157fa1352aef.jpg">
-    <img alt="vivu-md" height="200" src="https://telegra.ph/file/02901a37c157fa1352aef.jpg">
+    <img alt="queen-kenzi" height="200" src="https://telegra.ph/file/02901a37c157fa1352aef.jpg">
     
   < Loading...
   <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
@@ -61,7 +61,7 @@ npm start
   ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=008000&lines=HOW+TO+DEVOLP+BY;MADE+BY+CYBER+TECH+TEAM..)](https://git.io/typing-svg)
    
    ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F008000&lines=1.+Fork+This+Repo)](https://github.com/nipuna15)
-   ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F008000&lines=2.+Scan+QR+Code)](https://github.com/nipuna15)
+   ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F008000&lines=2.+Scan+QR+Code+Or+Pair+code)](https://github.com/nipuna15)
    ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F008000&lines=3.+Make+Heroku+&+Uffizzi+Deploy+Link+Your+own)](https://github.com/nipuna15)
    ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F008000&lines=4.+Add+App+Name+And+Deploy)](https://github.com/nipuna15)
    ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F008000&lines=5.+Watch+Your+Heroku+Log)](https://github.com/nipuna15)
@@ -72,7 +72,7 @@ npm start
 ---
 
 ## CREDITS 
-<a href="https://wa.me/message/DNN5ZGDNMOH6K1"><img src="https://telegra.ph/file/9c7e6c714401add254ac5.jpg" alt="LOGIN WITH PAIR CODE" height="90" width="90"></a>
+<a href="https://wa.me/message/DNN5ZGDNMOH6K1"><img src="https://telegra.ph/file/08ce20a843b7650a296e7.jpg" alt="LOGIN WITH PAIR CODE" height="90" width="90"></a>
 ---
 ### CREATED BY:
 1. ### Danu.Xz
