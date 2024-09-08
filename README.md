@@ -32,6 +32,16 @@
 
 <a href="https://replit.com"><img title="QUEEN-KENZI Deploy Replit" src="https://img.shields.io/badge/DEPLOY REPLIT-h?color=black&style=for-the-badge&logo=Replit"></a>
 ---
+## Deploy to HEROKU ↓
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/manulofficial7/Manu-MD-Bot-V7)
+
+## Deploy to RENDER ↓
+
+<a href="https://dashboard.render.com/" target="blank"><img align="center" src="https://telegra.ph/file/c15e952f017c10e12f431.jpg" width="100" height="20" alt="Deploy bot"/></a>
+
+---
+
 2. #### PAIR CODE GET
     <br>
 <a href="https://replit.com/@danupaacedemy/Manul-Official-Whatsapp-Bot-Pair-Code"><img title="GET CREDS.JSON FILE" src="https://img.shields.io/badge/GET SESSION-h?color=black&style=for-the-badge&logo=msi"></a>
