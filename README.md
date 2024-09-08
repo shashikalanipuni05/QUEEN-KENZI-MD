@@ -9,11 +9,12 @@
     <br>
 <a href="https://github.com/shashikalanipuni05/mmmmmm/fork"><img title="QUEEN-KENZI-MD" src="https://img.shields.io/badge/FORK QUEEN-KENZI-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
-<!--- snake -->
-<div align="center">
-  <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg"
-       alt="snake" /></a>
-</div>
+![forks](https://img.shields.io/github/forks/shashikalanipuni05/mmmmmm?label=Forks&style=social)
+
+![stars](https://img.shields.io/github/stars/shashikalanipuni05/mmmmmm?style=social)
+
+
+
 
 <br>
 • Sri Lanka Best and fast whatsapp bot
