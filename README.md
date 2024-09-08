@@ -34,7 +34,7 @@
 ---
 ## Deploy to HEROKU ↓
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/manulofficial7/Manu-MD-Bot-V7)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shashikalanipuni05/mmmmmm)
 
 ## Deploy to RENDER ↓
 
