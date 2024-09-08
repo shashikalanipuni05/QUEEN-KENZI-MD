@@ -55,7 +55,7 @@ pkg install wget
 pkg install imagemagick -y
 git clone Your Forked Github Url
 cd mmmmmm
-npm i
+npm install
 npm start
 ```
 ---
