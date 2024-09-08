@@ -54,7 +54,7 @@ pkg install ffmpeg -y
 pkg install wget
 pkg install imagemagick -y
 git clone Your Forked Github Url
-cd vivu-md-v1
+cd mmmmmm
 npm i
 npm start
 ```
@@ -71,6 +71,43 @@ npm start
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F00&lines=If+you+think+this+bot+is+not+good;deploy+another+bot+you+like;If+you+become+Question+about+bot;join+our+Whatsapp+support+group;to+solve+it+♥️)](https://git.io/typing-svg)
   
 ---
+ ### WORKFLOW CODE
+ ```name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
+```
+---
+
 
 ## CREDITS 
 <a href="https://wa.me/message/DNN5ZGDNMOH6K1"><img src="https://telegra.ph/file/08ce20a843b7650a296e7.jpg" alt="LOGIN WITH PAIR CODE" height="90" width="90"></a>
