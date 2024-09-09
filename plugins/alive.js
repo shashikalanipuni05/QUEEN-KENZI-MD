@@ -251,27 +251,26 @@ __________________________________________________
 `
 
 
-return await conn.sendMessage(from, { text: text ,
-  contextInfo: {
-    mentionedJid: [ '' ],
-    groupMentions: [],
-    forwardingScore: 999,
-    isForwarded: true,
-    forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363192956026815@newsletter',
-      newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
-      serverMessageId: 999
-    },
-externalAdReply: { 
-title: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
-body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
-mediaType: 1,
-sourceUrl: "https://github.com/Danupa0" ,
-thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
-renderLargerThumbnail: true,
-showAdAttribution: true
-}
-}}, { quoted: mek})
+return await conn.sendMessage(from, {
+           document: fs.readFileSync("./package.json"),
+           fileName: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
+           fileLength: 99999999999999,
+           mimetype: 'application/pdf',
+           renderLargerThumbnail: true,
+            caption: "\n" + text,
+contextInfo: {
+                            mentionedJid: ['0@s.whatsapp.net'],
+                            externalAdReply: {
+                                mediaType: 1,
+                                previewType: 1,
+                                renderLargerThumbnail: true,
+                                sourceUrl: "https://whatsapp.com/channel/0029Va8f3smKWEKvPUzXQv34" ,
+                                thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
+                                title:  '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
+                                body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ'
+                            }
+                        }
+}, { quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
