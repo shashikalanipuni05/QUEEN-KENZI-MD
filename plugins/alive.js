@@ -352,3 +352,71 @@ console.log(e)
 reply(`${e}`)
 }
 })
+
+cmd({
+    pattern: "script",
+    react: "💰",
+    alias: ["panel","list","commands"],
+    desc: "Get bot\'s command list.",
+    category: "main",
+    use: '.script',
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+let text = `
+> *👋. *HEY* *${pushname}* ジ,
+_________________________
+
+🍫 ∆ ◦ _*ɴᴀᴍᴇ ʙᴏᴛ*_ : 💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍
+__________________________________________________________
+
+🌜 ∆ ◦ _*ᴄʀᴇᴀᴛᴏʀ*_ : *DanuXzz* ジ 🤍
+> Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥
+__________________________________________________________
+
+🖲️ ∆ ◦ _*ᴄᴏɴᴛᴀᴄᴛ*_ : ~https://wa.me/94740460412~ 🤍         
+_____________________________
+_____________________________
+_____________________________
+
+*WHAT THE FUCK GUY* 😂
+
+*_WE DON'T GIVE SCRIPT_*
+_____________________________
+_____________________________
+_____________________________
+
+
+
+*°⏰ [  𝗕𝗬  © Ｄａｒｋ < | | > Ｎｅｏｎ Ｃｙｂｅｒｚ ヤ • 🎉 ]*
+`
+
+
+
+return await conn.sendMessage(from, { text: text ,
+  contextInfo: {
+    mentionedJid: [ '' ],
+    groupMentions: [],
+    forwardingScore: 999,
+    isForwarded: true,
+    forwardedNewsletterMessageInfo: {
+      newsletterJid: '120363192956026815@newsletter',
+      newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
+      serverMessageId: 999
+    },
+externalAdReply: { 
+title: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
+body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+mediaType: 1,
+sourceUrl: "https://github.com/Danupa0" ,
+thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
+renderLargerThumbnail: true,
+showAdAttribution: true
+}
+}}, { quoted: mek})
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
