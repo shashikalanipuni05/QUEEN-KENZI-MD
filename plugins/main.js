@@ -152,13 +152,11 @@ const tes = `┌─────────────────────�
 ├ 🧬 *Uptime:-*  ${runtime(process.uptime())}
 ├ 🎲 *Ram usage:-*  ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ├ 🦄  *Owner:-* *DanuXzz ジ*
-├💠  *Version:-* 1.0.0
-└───────────────────────
-
-> Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ`
+├ 💠  *Version:-* 1.0.0
+└───────────────────────`
 
  
-return await conn.sendMessage(from,{image: {url: config.ALIVE_IMG},caption:about},{quoted: mek})      
+await conn.sendMessage(from, { image: { url: config.ALIVE_IMG }, caption: tes }, { quoted: mek, messageId:genMsgId() })
 } catch (e) {
 reply('*Error !!*')
 l(e)
