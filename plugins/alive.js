@@ -337,7 +337,7 @@ contextInfo: {
                                 mediaType: 1,
                                 previewType: 1,
                                 renderLargerThumbnail: true,
-                                sourceUrl: "https://github.com/Danupa0" ,
+                                sourceUrl: "https://whatsapp.com/channel/0029Va8f3smKWEKvPUzXQv34" ,
                                 thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
                                 title:  '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
                                 body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ'
