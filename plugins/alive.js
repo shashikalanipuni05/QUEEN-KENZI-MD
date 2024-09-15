@@ -256,27 +256,26 @@ __________________________________________________
 
 
 
-return await conn.sendMessage(from, { text: text ,
-  contextInfo: {
-    mentionedJid: [ '' ],
-    groupMentions: [],
-    forwardingScore: 999,
-    isForwarded: true,
-    forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363192956026815@newsletter',
-      newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
-      serverMessageId: 999
-    },
-externalAdReply: { 
-title: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
-body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+return await conn.sendMessage(m.chat, {document: fs.readFileSync("./package.json"),
+            fileName: `😼ＫＥＮＺＩ-ＭＤ.🤍`,
+            mimetype: "application/pdf",
+            fileLength: 99999999999999,
+            pageCount: 2024, caption: textt,
+contextInfo: {
+forwardingScore: 999,
+isForwarded: false,
+forwardedNewsletterMessageInfo: {
+	newsletterName:  💗 Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥 ,
+		newsletterJid: "120363192956026815@newsletter",
+		},
+		externalAdReply: {  
+title: `💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍`, 
+body:   ,
+thumbnailUrl:   https://telegra.ph/file/02901a37c157fa1352aef.jpg  ,
+sourceUrl: "https://github.com/shashikalanipuni05/QUEEN-KENZI-MD" , 
 mediaType: 1,
-sourceUrl: "https://github.com/Danupa0" ,
-thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
-renderLargerThumbnail: true,
-showAdAttribution: true
-}
-}}, { quoted: mek})
+renderLargerThumbnail: true
+}}}, {quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
@@ -330,27 +329,26 @@ _________________________
 
 
 
-return await conn.sendMessage(from, { text: text ,
-  contextInfo: {
-    mentionedJid: [ '' ],
-    groupMentions: [],
-    forwardingScore: 999,
-    isForwarded: true,
-    forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363192956026815@newsletter',
-      newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
-      serverMessageId: 999
-    },
-externalAdReply: { 
-title: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
-body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+return await conn.sendMessage(m.chat, {document: fs.readFileSync("./package.json"),
+            fileName: `😼ＫＥＮＺＩ-ＭＤ.🤍`,
+            mimetype: "application/pdf",
+            fileLength: 99999999999999,
+            pageCount: 2024, caption: textt,
+contextInfo: {
+forwardingScore: 999,
+isForwarded: false,
+forwardedNewsletterMessageInfo: {
+	newsletterName:  💗 Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥 ,
+		newsletterJid: "120363192956026815@newsletter",
+		},
+		externalAdReply: {  
+title: `💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍`, 
+body:   ,
+thumbnailUrl:   https://telegra.ph/file/02901a37c157fa1352aef.jpg  ,
+sourceUrl: "https://github.com/shashikalanipuni05/QUEEN-KENZI-MD" , 
 mediaType: 1,
-sourceUrl: "https://github.com/Danupa0" ,
-thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
-renderLargerThumbnail: true,
-showAdAttribution: true
-}
-}}, { quoted: mek})
+renderLargerThumbnail: true
+}}}, {quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
@@ -398,27 +396,26 @@ _____________________________
 
 
 
-return await conn.sendMessage(from, { text: text ,
-  contextInfo: {
-    mentionedJid: [ '' ],
-    groupMentions: [],
-    forwardingScore: 999,
-    isForwarded: true,
-    forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363192956026815@newsletter',
-      newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
-      serverMessageId: 999
-    },
-externalAdReply: { 
-title: '💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍',
-body: 'ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
+return await conn.sendMessage(m.chat, {document: fs.readFileSync("./package.json"),
+            fileName: `😼ＫＥＮＺＩ-ＭＤ.🤍`,
+            mimetype: "application/pdf",
+            fileLength: 99999999999999,
+            pageCount: 2024, caption: textt,
+contextInfo: {
+forwardingScore: 999,
+isForwarded: false,
+forwardedNewsletterMessageInfo: {
+	newsletterName:  💗 Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥 ,
+		newsletterJid: "120363192956026815@newsletter",
+		},
+		externalAdReply: {  
+title: `💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍`, 
+body:   ,
+thumbnailUrl:   https://telegra.ph/file/02901a37c157fa1352aef.jpg  ,
+sourceUrl: "https://github.com/shashikalanipuni05/QUEEN-KENZI-MD" , 
 mediaType: 1,
-sourceUrl: "https://github.com/Danupa0" ,
-thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
-renderLargerThumbnail: true,
-showAdAttribution: true
-}
-}}, { quoted: mek})
+renderLargerThumbnail: true
+}}}, {quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
