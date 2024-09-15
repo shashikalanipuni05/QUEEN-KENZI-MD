@@ -50,6 +50,9 @@
 
 ---
 
+`UPLOAD creds.js FILE TO Kenzi_md FOLDER👆`
+---
+
 
 ## DEPLOY BY SESSION ID (WHATSAPP LOG WITH PAIR CODE)
 
