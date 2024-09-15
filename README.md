@@ -3,6 +3,8 @@
 ### 🇱🇰 𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃
 ### SETUP
 ---
+//========DO-NOT-CHANGE-ALIVE-MSG========
+---
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F00&lines=WELCOME+TO+QUEEN+KENZI+MD+v1+WHATSAPP+BOT;MADE+BY+DARKNEONCYBERS+TEAM)](https://git.io/typing-svg)
 ---
 1. Fork The Repo
