@@ -338,13 +338,13 @@ contextInfo: {
 forwardingScore: 999,
 isForwarded: false,
 forwardedNewsletterMessageInfo: {
-	newsletterName:  💗 Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥 ,
+	newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
 		newsletterJid: "120363192956026815@newsletter",
 		},
 		externalAdReply: {  
 title: `💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍`, 
 body:   ,
-thumbnailUrl:   https://telegra.ph/file/02901a37c157fa1352aef.jpg  ,
+thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
 sourceUrl: "https://github.com/shashikalanipuni05/QUEEN-KENZI-MD" , 
 mediaType: 1,
 renderLargerThumbnail: true
@@ -405,13 +405,13 @@ contextInfo: {
 forwardingScore: 999,
 isForwarded: false,
 forwardedNewsletterMessageInfo: {
-	newsletterName:  💗 Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥 ,
+	newsletterName: "Ｄａｒｋ Ｎｅｏｎ Ｃｙｂｅｒｚ 🅥",
 		newsletterJid: "120363192956026815@newsletter",
 		},
 		externalAdReply: {  
 title: `💃𝐐𝐔𝐄𝐄𝐍 𝐊𝐄𝐍𝐙𝐈 𝐌𝐃 🤍`, 
 body:   ,
-thumbnailUrl:   https://telegra.ph/file/02901a37c157fa1352aef.jpg  ,
+thumbnailUrl: 'https://telegra.ph/file/02901a37c157fa1352aef.jpg' ,
 sourceUrl: "https://github.com/shashikalanipuni05/QUEEN-KENZI-MD" , 
 mediaType: 1,
 renderLargerThumbnail: true
