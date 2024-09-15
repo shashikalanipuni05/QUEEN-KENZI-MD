@@ -58,6 +58,10 @@
 
 <a href='https://mr-manul-official-web.vercel.app/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/%F0%9F%9A%80%EF%B8%8F%E2%80%8D%20-%F0%9F%93%8B%20%20PAIR%20CODE%20WEB%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-blue' width="400" height="50" alt="Deploy bot"/></a>
 ---
+
+`TO GET SESSION ID 👆`
+---
+
  ### Termux Guide
 
  ```bash
